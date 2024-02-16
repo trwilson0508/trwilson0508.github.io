@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Tim Wilson's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+							<header id="header">
+								<!-- <a href="index.html" class="logo"><strong>Editorial</strong> by HTML5 UP</a> -->
+								<ul class="icons">
+									<li><a href="https://github.com/trwilson0508" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									<li><a href="https://www.facebook.com/profile.php?id=100091365916944" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://twitter.com/tim_wilson0508" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="https://www.linkedin.com/in/tim-w-98397a163/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								</ul>
+							</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Projects</h1>
+									</header>
+
+									<hr class="major" />
+									
+									<h2>Adversarial Data Attack Detection for L3Harris Machine Learning Model</h2>
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-4"><span class="image fit"><img src="images/portfolio-capstone-1.png" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/portfolio-capstone-3.png" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/portfolio-capstone-4.png" alt="" /></span></div>
+											<!-- Break -->
+										</div>
+									</div>
+									<p><b>Background</b> - L3Harris Technologies works alongside the US Space Force to track information about the orbits of satellites, rockets, and other space debris. In order to reduce the work orbital analysts have to do, L3Harris Technologies wants to develop a robust ML model that is resistant to different kinds of attacks by potential adversaries, that is tolerant to mistakes made when classifying incoming data, and that can explain decisions to orbital analysts that haven't worked with the model.</p>
+									<p><b>Problem Statement</b> - Our neural network model will predict historical stock market trends for DJIA, S&P 500, and NASDAQ. Using this existing model we will adapt it to fit the needs of continuous training, anomaly detection, protection against adversarial attacks, as well as explainability of model predictions in the use case of orbital data.</p>
+									<p><b>Results</b> - We have achieved outlier detection on data using the methods: Local Outlier Factor, KNN, Hurst Exponents, Hole detection. We simulated  continuous retraining on data with the use of window parsing. Additionally, we simulated attacks by using random data generation. Our project includes a fully implemented pipeline outputting all significant results to StreamLit UI dashboard.</p>
+
+									<hr class="major" />
+
+									<h2>Battleship in QTCreator</h2>
+									<img src="images/battleship.png" alt="" width="640" height="360"/>
+									<p>I created this game for a project in my Intensive programming workshop class. I used QTCreator to manage the UI. This was coded in C++ and taught me how to handle signals in C++. Two players can play and it hides the screen of the opposing player while they are active. The brown shapes are ships, the gold are treasure chests that allow the player to shoot twice, and the black ones are mines that if hit will hit the shooting players board.</p>
+									
+									<hr class="major" />
+									
+									<h2>Shopping robot controller</h2>
+									<img src="images/webots.png" alt="" width="640" height="360"/>
+									<p>For my intro to robotics course, our final project involved creating a controller for a robot. The robot autonomously mapped a grocery store and then navigated the store to find objects. It used color blob detection to locate golden blocks. It then used inverse kinematics to control the arm in order to grab the blocks and drop them in a basket. This taught me a lot and challenged me as well. I needed to use a lot of math in order to move the arm and draw a map of the store. It also taught me about color blob detection and how to code that.</p>
+									
+									<hr class="major" />
+
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<li><a href="projects.html">Projects</a></li>
+                                        <li><a href="experience.html">Experience</a></li>
+										<li><a href="images/Tim_Wilson_College_Resume_March_2023.pdf">Resume</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+									<p>If you have any questions feel free to reach out!</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope">trwilson0508@yahoo.com</li>
+										<li class="icon solid fa-phone">(949) 528-5361</li>
+									</ul>
+								</section>
+								<form action="https://formspree.io/f/xqkonjnd" method="POST">
+									<label>
+										Your email:
+										<input type="email" name="email">
+									</label>
+									<label>
+										Your message:
+										<textarea name="message"></textarea>
+									</label>
+									<!-- your other form fields go here -->
+									<button type="submit">Send</button>
+									</form>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
